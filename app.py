@@ -3,7 +3,6 @@ from fastapi import FastAPI, Request
 from fastapi.responses import JSONResponse
 from src.graph.graph_builder import GraphBuilder
 from src.llm.groqllm import GroqLLM
-import os
 from dotenv import load_dotenv
 load_dotenv()
 
